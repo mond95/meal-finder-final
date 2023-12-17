@@ -202,7 +202,11 @@ function addMealToDom(meal) {
 
 // fetch("./data.json")
 // Replacing the data.json file above instead with the C# web api:
-fetch("http://localhost:5090/api/meals")
+// fetch("http://localhost:5090/api/meals")
+
+// UPDATE: although I can get the C# to work when I use dotnet run, when publishing this onto github pages or the flipbook, it won't work without being able to run 'dotnet run' first
+// so I am just using the json file to be able to populate the carousel
+fetch("./data.json")
   .then((res) => res.json())
   .then((data) => {
     console.log(data);
