@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+  <!-- I kept getting the error when trying to use dotnet run:
+  
+The following frameworks were found:
+  8.0.0 at [/usr/local/share/dotnet/shared/Microsoft.AspNetCore.App]
+
+Learn more:
+https://aka.ms/dotnet/app-launch-failed
+
+To install missing framework, download:
+https://aka.ms/dotnet-core-applaunch?framework=Microsoft.AspNetCore.App&framework_version=7.0.0&arch=x64&rid=osx-x64&os=osx.12 
+
+But i already installed 7 aswell as 8. But i guess cos it was built on 7 i needed 7 only. Then when i tried on the appstream it worked there because i saw they
+used version 7 too.
+
+Anyway by changing the target framework tag below to net8.0 instead it worked!
+-->
+  <!-- I changed it from net7.0 to net8.0 and it worked -->
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.11" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+</Project>
