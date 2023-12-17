@@ -4,34 +4,34 @@
     "mealName": "Chicken Fajitas",
     "mealThumbnail": "https://assets.bonappetit.com/photos/57b1646653e63daf11a4f061/master/w_1280,c_limit/cilantro-lime-chicken-fajitas-with-grilled-onions-940.jpg",
     "votes": 241,
-    "recipeURL": "https://www.bonappetit.com/recipe/cilantro-lime-chicken-fajitas-with-grilled-onions"
+    "link": "https://www.bonappetit.com/recipe/cilantro-lime-chicken-fajitas-with-grilled-onions"
   },
   {
     "id": 2,
     "mealName": "Apple Crumble",
     "mealThumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZijJwxtus5wGRjdIzRC8yDYlfmsF2Ge2UAw&usqp=CAU",
     "votes": 115,
-    "recipeURL": "https://www.delicious.com.au/recipes/granny-lanes-famous-apple-crumble/vhdz3dvr"
+    "link": "https://www.delicious.com.au/recipes/granny-lanes-famous-apple-crumble/vhdz3dvr"
   },
   {
     "id": 3,
     "mealName": "Carrot Cake",
     "mealThumbnail": "https://natashaskitchen.com/wp-content/uploads/2023/03/Carrot-Cake-SQ1.jpg",
     "votes": 139,
-    "recipeURL": "https://natashaskitchen.com/carrot-cake-recipe/"
+    "link": "https://natashaskitchen.com/carrot-cake-recipe/"
   },
   {
     "id": 4,
     "mealName": "Beef Stew",
     "mealThumbnail": "https://www.joyousapron.com/wp-content/uploads/2018/10/stovetop-beef-stew-sq-pic.jpg",
     "votes": 210,
-    "recipeURL": "https://www.joyousapron.com/beef-stew/"
+    "link": "https://www.joyousapron.com/beef-stew/"
   },
   {
     "id": 5,
     "mealName": "Pad Thai",
     "mealThumbnail": "https://inquiringchef.com/wp-content/uploads/2023/02/Authentic-Pad-Thai_square-1908-500x375.jpg",
     "votes": 132,
-    "recipeURL": "https://inquiringchef.com/authentic-pad-thai/"
+    "link": "https://inquiringchef.com/authentic-pad-thai/"
   }
 ]
