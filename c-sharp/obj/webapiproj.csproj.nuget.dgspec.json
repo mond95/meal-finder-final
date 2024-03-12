@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/monicadiep/Documents/recipe-website/meal-finder-final/backend/webapiproj.csproj": {}
+    "/Users/monicadiep/Documents/recipe-website/meal-finder-final/meal-finder-final/c-sharp/webapiproj.csproj": {}
   },
   "projects": {
-    "/Users/monicadiep/Documents/recipe-website/meal-finder-final/backend/webapiproj.csproj": {
+    "/Users/monicadiep/Documents/recipe-website/meal-finder-final/meal-finder-final/c-sharp/webapiproj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/monicadiep/Documents/recipe-website/meal-finder-final/backend/webapiproj.csproj",
+        "projectUniqueName": "/Users/monicadiep/Documents/recipe-website/meal-finder-final/meal-finder-final/c-sharp/webapiproj.csproj",
         "projectName": "webapiproj",
-        "projectPath": "/Users/monicadiep/Documents/recipe-website/meal-finder-final/backend/webapiproj.csproj",
+        "projectPath": "/Users/monicadiep/Documents/recipe-website/meal-finder-final/meal-finder-final/c-sharp/webapiproj.csproj",
         "packagesPath": "/Users/monicadiep/.nuget/packages/",
-        "outputPath": "/Users/monicadiep/Documents/recipe-website/meal-finder-final/backend/obj/",
+        "outputPath": "/Users/monicadiep/Documents/recipe-website/meal-finder-final/meal-finder-final/c-sharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/monicadiep/.nuget/NuGet/NuGet.Config"
