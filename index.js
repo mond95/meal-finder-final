@@ -248,11 +248,11 @@ If click on any one of the individual meals and open up the dev tools, can see t
 attribute which has the 'data-mealID' and WE NEED TO BRING THAT IN SO WE CAN MAKE A REQUEST TO GET THAT SPECIFIC MEAL!!!
 */
 
-mealsEl.addEventListener("click", (e) => {
-  const mealInfo = e.composedPath().find((item) => {
-    console.log(item);
-  });
-});
+// mealsEl.addEventListener("click", (e) => {
+//   const mealInfo = e.composedPath().find((item) => {
+//     console.log(item);
+//   });
+// });
 
 mealsEl.addEventListener("click", (e) => {
   const mealInfo = e.composedPath().find((item) => {
