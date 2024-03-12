@@ -55,7 +55,7 @@ just call e.preventDefault() (because we odn't want to actually try submit to a 
           // want to check to see if there are any meals with the search term
           //   'meals' is the name of the array which has all the recipe results in
           if (data.meals === null) {
-            resultHeading.innerHTML = `<p>There are no search resuls. Try again!</p>`;
+            resultHeading.innerHTML = `<p>There are no search results. Try again!</p>`;
           } else {
             // we want to take our meals element and want to set the inner html and we want to map through the meals we get back which is going to be in data.meals
             // and we're going to use the .map() method and say for each meal we want to output a div with the class of meal
@@ -202,11 +202,10 @@ function addMealToDom(meal) {
 
 // fetch("./data.json")
 // Replacing the data.json file above instead with the C# web api:
-// fetch("http://localhost:5090/api/meals")
-
-// UPDATE: although I can get the C# to work when I use dotnet run, when publishing this onto github pages or the flipbook, it won't work without being able to run 'dotnet run' first
-// so I am just using the json file to be able to populate the carousel
-fetch("./data.json")
+fetch("http://localhost:5090/api/meals")
+  // UPDATE: although I can get the C# to work when I use dotnet run, when publishing this onto github pages or the flipbook, it won't work without being able to run 'dotnet run' first
+  // so I am just using the json file to be able to populate the carousel
+  // fetch("./data.json")
   .then((res) => res.json())
   .then((data) => {
     console.log(data);
